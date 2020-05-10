@@ -2,8 +2,7 @@ from test_framework import generic_test
 
 
 def count_bits(x: int) -> int:
-    # TODO - you fill in here.
-    return 0
+    return sum([int(ch) for ch in bin(x)[2:]])
 
 
 if __name__ == '__main__':
