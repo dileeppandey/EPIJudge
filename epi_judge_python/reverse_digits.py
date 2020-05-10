@@ -3,7 +3,7 @@ from math import log10
 from math import floor
 
 
-def reverse(x):
+def reverse(x: int) -> int:
     # TODO - you fill in here.
     result = 0
     is_negative = False
@@ -18,5 +18,5 @@ def reverse(x):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main("reverse_digits.py",
+        generic_test.generic_test_main('reverse_digits.py',
                                        'reverse_digits.tsv', reverse))
